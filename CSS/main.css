@@ -99,10 +99,20 @@ footer .bottom {
         justify-content: center;
         align-items: center;
     }
+
+    h1 {
+        margin: 0;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+    }
     
     a {
         text-decoration: none;
         color: black;
+    }
+
+    a:nth-of-type(5) {
+        margin-bottom: 2vh;
     }
     
     body {
@@ -112,6 +122,10 @@ footer .bottom {
     main {
         padding-left: 2%;
         padding-right: 2%;
+    }
+
+    p {
+        font-size: 0.8em;
     }
     
     .banner {
